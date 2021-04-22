@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="./main.css">
+
+<head></head>
+
+<body>
+    <div class="contenedor">
+        <article>
+            <h1>Video Youtube</h1>
+            <div id="player"></div>
+        </article>
+    </div>
+    <div class="overlay" id="pregunta">
+        <!-- Div que contiene la ventana emergente de la pregunta-->
+        <div class="popup">
+            <div>
+                <h1>Pregunta de Seleccion Multiple!</h1>
+                <p class="instruccion">Responda Correctamente para ver el video</p>
+                <p class="enunciado"> ¿Cúanto es 2+2?</p>
+                <div>
+                    <button class=" opcion " id="a" onclick=" validar(this.id) "> A: 2</button>
+                    <!--Seccion de Bootones-->
+                </div>
+                <div>
+                    <button class=" opcion " id="b" onclick=" validar(this.id) "> B: 3</button>
+                    <!-- Se da el ID del boton como parametro para validar-->
+                </div>
+                <div>
+                    <button class=" opcion " id="c" onclick=" validar(this.id) "> C: 1</button>
+                </div>
+                <div>
+                    <button class=" opcion " id="d" onclick=" validar(this.id) "> D: 4 </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src=" ./index.js "></script>
+</body>
+
+</html>

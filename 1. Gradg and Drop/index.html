@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Test Daniel</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="contenedor">
+        <p>
+            La arquitectura multiprocesador es el <i>1.</i>___________ más sencillo de los <i>2.</i>___________
+            <i>3.</i>___________ ya que es un <i>4.</i>___________ que ejecuta muchos <i>5.</i>___________ en procesadores diferentes. De esta forma las siguientes <i>6.</i>___________ serán asimiladas mejor.
+        </p>
+        <div class="contenedor" style="border: 3px solid rgb(0, 77, 77);">
+            <div class="recuadro" id="recuadro6">1</div>
+            <div class="recuadro" id="recuadro1">2</div>
+            <div class="recuadro" id="recuadro3">3</div>
+            <div class="recuadro" id="recuadro5">4</div>
+            <div class="recuadro" id="recuadro2">5</div>
+            <div class="recuadro" id="recuadro4">6</div>
+        </div>
+
+    </div>
+    <div class="contenedor">
+        <div id="palabras">
+            <span class="palabra" id="palabra1" draggable="true">Sistemas </span>
+            <span class="palabra" id="palabra2" draggable="true">Procesos </span>
+            <span class="palabra" id="palabra3" draggable="true">Distribuidos </span>
+            <span class="palabra" id="palabra4" draggable="true">Arquitecturas </span>
+            <span class="palabra" id="palabra5" draggable="true">Sistema </span>
+            <span class="palabra" id="palabra6" draggable="true">Modelo </span>
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <button class="boton" onclick="validarColor()" id="boton">Validar</button>
+    </div>
+    <div class="contenedor">
+        <button class="boton" style="display: none" onclick="reiniciar()" id="botonreiniciar">Reiniciar</button>
+    </div>
+    <div class="window-notice" id="window-notice">
+        <div class="content">
+            <div class="content-text">Construya la definición de arquitectura multiprocesador de acuerdo con lo estudiado hasta este punto. Ubique cada uno de los términos en el espacio que considere correcto.
+            </div>
+            <div class="content-buttons" ">
+                <button class="boton " style="display: unset; " onclick="cerramensaje() "> Entendido</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./main.js "></script>
+
+</html>

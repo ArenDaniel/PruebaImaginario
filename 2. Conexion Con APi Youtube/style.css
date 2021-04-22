@@ -1,0 +1,85 @@
+.h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#player {
+    align-items: center;
+    margin: 5px;
+    border: solid 1px red;
+    padding: 2rem;
+}
+
+.contenedor {
+    text-align: center;
+    box-shadow: 3px 3px red, -1em 0 0.4em olive;
+}
+
+#pregunta {
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup {
+    background-color: white;
+    border-radius: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+}
+
+.opcion {
+    background-color: white;
+    color: black;
+    border: 3px solid rgb(0, 102, 255);
+    /* Green */
+    padding: 1rem;
+    height: 5%;
+    width: 50%;
+    margin: 5px;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+}
+
+.opcion:hover {
+    background-color: rgb(0, 102, 255);
+    /* Green */
+    color: white;
+}
+
+.instruccion {
+    pad: 1rem;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 2rem;
+}
+
+.enunciado {
+    padding: 1rem;
+    margin: 5px;
+    border: 2px red;
+    border-radius: 2rem;
+    font-size: 2.5rem;
+    border: 3px solid cyan;
+}
+
+#pregunta {
+    display: none;
+}
